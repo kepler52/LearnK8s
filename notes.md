@@ -6,6 +6,7 @@ Configs can be created in kubernetes in multiple ways
     a)Using individual files
     b)Using  directory  and 
     c)Using literal value
+    ![Alt text](image.png)
 
 ** What  happens when pod try to refernce a nonexistent config map **
 
