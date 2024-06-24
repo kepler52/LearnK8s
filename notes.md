@@ -3,9 +3,11 @@ A ConfigMap is an API object used to store non-confidential data in key-value pa
 
 ## USING THE KUBECTL CREATE CONFIGMAP COMMAND
 Configs can be created in kubernetes in multiple ways
-    a)Using individual files
-    b)Using  directory  and 
-    c)Using literal value
+    
+    - Using individual files
+    - Using  directory  and 
+    - Using literal value
+
     ![Alt text](image.png)
 
 ** What  happens when pod try to refernce a nonexistent config map **
