@@ -2,13 +2,13 @@
 A ConfigMap is an API object used to store non-confidential data in key-value pairs. Pods can consume ConfigMaps as environment variables, command-line arguments, or as configuration files in a volume.
 
 ## USING THE KUBECTL CREATE CONFIGMAP COMMAND
-Configs can be created in kubernetes in multiple ways
+- Configs can be created in kubernetes in multiple ways
     
-    - Using individual files
-    - Using  directory  and 
-    - Using literal value
+    1. Using individual files
+    2. Using  directory  and 
+    3. Using literal value
 
-    ![Alt text](image.png)
+![Alt text](image.png)
 
 ** What  happens when pod try to refernce a nonexistent config map **
 
